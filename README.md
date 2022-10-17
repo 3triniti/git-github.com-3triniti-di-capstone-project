@@ -1,14 +1,8 @@
-# di-capstone-project/Books in Paradise project
+# di-capstone-project/Suehiro Tea Project
+I am interested in creating a webpage for Suehiro because the company has great potential, but needs a starting point to get the ball rolling.  I would enjoy being part of that starting point, and build their webpage from scratch.  Being part of something that is in it's infancy is personally rewarding, and challenging at the same time.  It would give me person pleasure to create Suehiro's webpage.
+Suehiro is a Tea Ceremony company, that specializes in traditional Japanese Tea parties.  It is important that they have an informative webpage that describes the subtleties of Japanese Tea Ceremony.  Along with tea services, they are also attempting to establish themselves in the retail market,  selling tea cups and wares to an open market.  Their page will have to be multi-faceted to appeal to future customers, but also look to make a marketing profit.  
+I will work hand and hand with the Owners of Suehiro to build a webpage that represents what is most important to their company, while creating visually effective webpage that does not take away from the simple intention of the Tea Ceremony.
+The obstacles facing me in this project are minimal.  The two obstacles is time, and the lack of personal experience.  Although I have an idea, experience slows to process.  I will need to utilize all the time I'm alloted to complete this project.
+I will devote twelve hours a week to this project, which should take me seven weeks to complete.  Total work time should be around 80 hours.
+I will create a webpage with a simple home page, but branches into two children pages that give more information, and branches into smaller subpages.  I will not use a navbar or side bar for the effects.  Instead I will use the page itself as a navigational tool.  Sort of like hidden elements, to give a secret discovery effect.
 
-For this project I will reconfigure existing information and data, while adding depth to the webpage.  This will include an improvement to the overall look and feel of the webpage.
-
-I will work with the Owner of "Talk Story Bookstore", implementing his ideas into the revamped web-page, making sure to include what are the most important elements for him.
-
-After establishing contact with client through a one on one meeting, and gaining his approval for the project, I will begin drawing up rough drafts of the layout.
-I am choosing "Talk Story Bookstore" for my project because of the personal contact that I have had with the establishment, as well as some of the personal frustrations that I have expressed about their limitations in marketing themselves to the public.
-The only issues that I see in this project would be time.  I do not foresee a lack of cooperation or information being a problem.  I have good rapport with the Owner, which is always a good start.
-This project should take a total of eight weeks to complete, most of which will be spend organizing information in the most visually effective way.
-I will need to spend at least twelve hours a week on this project.  With a projected time of 96 total hours for the project.  
-This amount of time should give me what I need to complete an effective project, while offering workable solution for the client.
-I plan to add aesthetics to give more warmth and welcome, while adding a sidebar that allows a more in-depth experience for the guests. This dropdown effect will allow guest to explore the many genres of books that are available in the store.
-The pre-existing navbar will continue to be the focal point, but the side bar allows for more exploration. 
