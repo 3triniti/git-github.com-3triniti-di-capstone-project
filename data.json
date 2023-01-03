@@ -1,0 +1,28 @@
+{
+    "service" : [
+        {
+            "id": 1,
+            "slug": "special-events",
+            "serviceName": "Special Events",
+            "backgroundImage": "/Images/suehiro1.jpg"
+        },
+        {
+            "id": 2,
+            "slug": "classes",
+            "serviceName": "Classes",
+            "backgroundImage": "/Images/suehiroclass2.jpeg"
+        },
+        {
+            "id": 3,
+            "slug": "community-outreach",
+            "serviceName": "Community Outreach",
+            "BackgroundImage": "/Images/suehirokids1.jpg"
+        },
+        {
+            "id": 4,
+            "slug": "home-parties",
+            "serviceName": "Home Parties",
+            "backgroundImage": "/Images/suehirokids2.jpeg"
+        }
+    ]
+}
