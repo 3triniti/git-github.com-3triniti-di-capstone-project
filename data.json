@@ -2,27 +2,83 @@
     "service" : [
         {
             "id": 1,
+            "haiku": [
+                "Experience Zen Moment"
+              ],
             "slug": "special-events",
             "serviceName": "Special Events",
-            "backgroundImage": "/Images/suehiro1.jpg"
+            "backgroundImage": "/Images/specialEvents.png"
         },
         {
             "id": 2,
-            "slug": "classes",
-            "serviceName": "Classes",
-            "backgroundImage": "/Images/suehiroclass2.jpeg"
+            "haiku": [
+                ""
+              ],
+            "slug": "weddings",
+            "serviceName": "Weddings",
+            "backgroundImage": "/Images/wedding3.png"
         },
         {
             "id": 3,
-            "slug": "community-outreach",
-            "serviceName": "Community Outreach",
-            "BackgroundImage": "/Images/suehirokids1.jpg"
+            "haiku": [
+                ""
+              ],
+            "slug": "retreats",
+            "serviceName": "Retreats",
+            "backgroundImage": "/Images/retreat2.png"
         },
         {
             "id": 4,
-            "slug": "home-parties",
-            "serviceName": "Home Parties",
-            "backgroundImage": "/Images/suehirokids2.jpeg"
+            "haiku": [
+                ""
+              ],
+            "slug": "community-outreach",
+            "serviceName": "Community Outreach",
+            "backgroundImage": "/Images/Screen Shot 2023-01-05 at 12.56.02 PM.png"
+        },
+        {
+            "id": 5,
+            "haiku": [
+                ""
+              ],
+            "slug": "workshops",
+            "serviceName": "Workshops",
+            "backgroundImage": "/Images/workshop.png"
+        },
+        {
+            "id": 6,
+            "haiku": [
+                ""
+              ],
+            "slug": "yukata-rental",
+            "serviceName": "Yukata Rental",
+            "backgroundImage":"/Images/wedding6.png"
+        }
+    ],
+    "product" : [
+        {
+            "id": 1,
+            "slug": "cups-and-plates",
+            "productName": "Cups and Plates",
+            "backgroundImage": "/Images/Screen Shot 2023-01-06 at 9.42.19 AM.png"
+        },
+        {
+            "id": 2,
+            "slug": "pots-and-bowls",
+            "productName": "Pots and Bowls",
+            "backgroundImage": "/Images/pot.png"
+        },
+        {
+            "id": 3,
+            "slug": "tea",
+            "productName": "Tea",
+            "backgroundImage": "/Images/Screen Shot 2023-01-06 at 9.44.58 AM.png"
+        },
+        {
+            "id": 4,
+            "slug": "place-mats",
+            "productName": "Place Mats",
+            "backgroundImage": "/Images/fabric.png"
         }
     ]
 }

@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/static/css/main.e30b9874.css",
+    "main.js": "/static/js/main.6d43e987.js",
+    "static/media/1000001554.jpg": "/static/media/1000001554.0d80cde68ca236efbce1.jpg",
+    "static/media/suehiro1.jpg": "/static/media/suehiro1.ee46d2cda00c228a1c63.jpg",
+    "static/media/1000001568.jpg": "/static/media/1000001568.4fcf6c88047fc95175bd.jpg",
+    "static/media/suehirologo1.jpeg": "/static/media/suehirologo1.58bf88a07c140d8cfaf2.jpeg",
+    "index.html": "/index.html",
+    "main.e30b9874.css.map": "/static/css/main.e30b9874.css.map",
+    "main.6d43e987.js.map": "/static/js/main.6d43e987.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e30b9874.css",
+    "static/js/main.6d43e987.js"
+  ]
+}
