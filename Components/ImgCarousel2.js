@@ -13,7 +13,7 @@ function ImgCarousel2() {
         <Carousel
           showArrows={true}
           showThumbs={false}
-          className="flex w-screen h-96 mt-48"
+          className="md:relative md:w-screen md:h-screen lg:flex lg:h-96 lg:mt-20"
         >
           {data?.map((product) => (
             <div className="grid grid-cols-1 grid-rows-1 place-items-center">
@@ -24,7 +24,7 @@ function ImgCarousel2() {
                 alt={product?.productName}
               />
               <a
-                className="z-10 mb-48 bg-white font-open text-cyan-500 px-8 -tracking-normal py-3 rounded-sm col-start-1 row-start-1"
+                className="z-10 md:mb-0 lg:mb-48 bg-white opacity-70 hover:bg-slate-200 hover:text-slate-500 font-open text-teal-500 px-8 -tracking-normal py-3 rounded-sm col-start-1 row-start-1"
                 href={`/${product.slug}`}
               >
                 {product.productName}

@@ -20,7 +20,7 @@ function ImgCarousel() {
         <Carousel
           showArrows={true}
           showThumbs={false}
-          className="bg-bottom w-screen h-screen"
+          className="bg-bottom w-screen lg:w-screen lg:h-screen"
         >
           {data?.map((service) => (
             <div className="grid grid-cols-1 grid-rows-1 place-items-center">
@@ -30,13 +30,13 @@ function ImgCarousel() {
                 src={service.backgroundImage}
                 alt={service?.serviceName}
               />
-              <div className=" mt-36 text-cyan-500 backdrop-blur-0 font-tangerine text-5xl col-start-1 row-start-1 ">
+              <div className=" mt-36 text-teal-500 backdrop-blur-0 font-tangerine text-5xl col-start-1 row-start-1 ">
                 {service.haiku.map((h) => (
                   <p>{h}</p>
                 ))}
               </div>
               <a
-                className="z-10 mt-72 bg-slate-100 font-open text-cyan-500 px-8 tracking-normal py-3 rounded-sm col-start-1 row-start-1"
+                className="z-10 mt-72 bg-white opacity-70 hover:bg-white hover:text-slate-500 font-open text-teal-500 text-lg px-8 tracking-normal py-3 rounded-sm col-start-1 row-start-1"
                 href={`/${service.slug}`}
               >
                 {service.serviceName}
