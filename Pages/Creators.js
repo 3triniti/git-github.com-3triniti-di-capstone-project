@@ -4,18 +4,14 @@ import profile1 from "../Images/1000001726.jpg";
 
 const Creators = () => {
   return (
-    <div className="box w-2/3">
-      <div className="flex mt-6 pb-10">
-        <img
-          src={profile1}
-          className="ml-10 mt-2 w-40 h-48 drop-shadow-xl"
-          alt=""
-        ></img>
-        <div>
-          <h2 className=" text-base font-sans font-bold pl-6 pb-4">
+    <div className="z-20 w-2/3 mt-20 flex flex-col p-5 gap-5">
+      <div className="flex gap-4">
+        <img src={profile1} className="w-40 drop-shadow-xl" alt=""></img>
+        <div className="flex flex-col gap-2">
+          <h2 className="text-base font-open font-normal">
             Nana Williams - Co-Creator / Tea Guide
           </h2>
-          <p className="pl-6 font-sans text-sm tracking-wider">
+          <p className="font-open font-normal text-sm tracking-wider">
             Nana grew up in Kyoto Japan, where it is called “Treasury of
             Japanese culture” She learned Japanese traditional tea ceremony from
             Master Issui Sasaki who is originator of “ Issui senchado
@@ -25,17 +21,13 @@ const Creators = () => {
           </p>
         </div>
       </div>
-      <div className="flex">
-        <img
-          src={profile2}
-          className="ml-10 mt-2 w-40 h-60 drop-shadow-xl"
-          alt=""
-        ></img>
-        <div>
-          <h2 className=" text-base font-sans font-bold pl-6 pb-4">
-            Ayae Tueller - Co-Creator / Manager
+      <div className="flex gap-4">
+        <img src={profile2} className="w-40 drop-shadow-xl" alt=""></img>
+        <div className="flex flex-col gap-2">
+          <h2 className=" text-base font-open font-normal">
+            Ayae Tueller - Co-Creator / Ceremony Artist
           </h2>
-          <p className="pl-6 pb-12 text-sm font-sans tracking-wider">
+          <p className="font-normal text-sm font-open tracking-wider">
             Ever since Ayae was little, she had a passion for tea. Growing up in
             Japan, drinking Japanese tea was a daily routine after a meal/snack.
             When she was twenty, she decided to quit drinking caffeinated
