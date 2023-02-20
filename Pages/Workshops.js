@@ -18,18 +18,21 @@ const Workshops = () => {
           muted
         ></video>
         <div className=" bg-yellow-500 h-2 w-screen"></div>
-        <h1 className="font-open font-thin text-4xl text-center text-teal-400 ml-8 mr-8 mt-8">
+        <h1 className="font-tangerine font-normal text-7xl text-teal-500 text-center mt-1 mb-6">
+          Workshops
+        </h1>
+        <h1 className="font-open font-thin text-4xl text-center text-teal-400 md:ml-8 md:mr-8 mt-8">
           Learn ways to articulate the delicate relationship between nature and
           yourself
         </h1>
-        <div className="grid grid-cols-1 md:flex mb-16">
+        <div className="grid grid-cols-1 lg:flex mb-16">
           <img
             src={workshop2}
-            className=" w-80 h-96 ml-44 md:ml-8 mt-16"
+            className="w-screen md:w-80 h-full md:h-96 md:ml-80 lg:ml-8 mt-16"
             alt=""
           />
           <div>
-            <p className="font-open font-thin text-lg text-black text-left ml-12 mr-12 mt-12">
+            <p className="font-open font-thin text-lg text-black text-left ml-4 md:ml-12 mr-4 md:mr-12 mt-24 md:mt-12">
               Chanoyu (the Tea Ceremony) is a multifaceted art form developed in
               Japan over 800 years, an expression of hospitality, a school of
               movement and manners, and a compendium of the Japanese arts –
@@ -38,7 +41,7 @@ const Workshops = () => {
               cultivation and preparation of leaf tea (Sencha), tea sweets,
               seasonal procedures and much more.
             </p>{" "}
-            <p className="font-open font-thin text-lg text-black text-left ml-12 mr-12 mb-8 mt-4">
+            <p className="font-open font-thin text-lg text-black text-left ml-4 md:ml-12 mr-4 md:mr-12 md:mb-8 mt-4">
               ​Kauai Tea Ceremony will periodically schedule workshops and
               classes to promote and teach Japanese cultural elements through
               tea ceremony. Classes will be structured to give students the
@@ -50,11 +53,12 @@ const Workshops = () => {
           </div>
           <img
             src={workshop}
-            className=" w-80 h-96 mt-6 ml-44 md:ml-0  md:mt-16 md:mr-10"
+            className="w-screen md:w-80 h-96 mt-6 lg:ml-0 md:ml-80  md:mt-16 md:mr-10"
             alt=""
           />
         </div>
       </div>
+      <div className="md:hidden bg-teal-500 h-1.5 w-5/6 md:w-3/4 md:ml-24 ml-8 md:-mt-20 mb-8 md:mb-24"></div>
       <div className=" w-screen -mb-2 h-1 bg-slate-100"></div>
       <Footer />
     </div>

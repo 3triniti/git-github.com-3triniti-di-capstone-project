@@ -9,11 +9,15 @@ function ImgCarousel2() {
 
   return (
     <>
+      <div className=" bg-yellow-500 h-2 w-screen md:mt-10"></div>
       <div>
         <Carousel
+          autoPlay={true}
+          autoPlaySpeed={15000}
+          infiniteLoop={true}
           showArrows={true}
           showThumbs={false}
-          className="md:relative md:w-screen md:h-screen lg:flex lg:h-96 lg:mt-20"
+          className="md:relative md:w-screen lg:flex lg:h-96"
         >
           {data?.map((product) => (
             <div className="grid grid-cols-1 grid-rows-1 place-items-center">
@@ -24,7 +28,7 @@ function ImgCarousel2() {
                 alt={product?.productName}
               />
               <a
-                className="z-10 md:mb-0 lg:mb-48 bg-white opacity-70 hover:bg-slate-200 hover:text-slate-500 font-open text-teal-500 px-8 -tracking-normal py-3 rounded-sm col-start-1 row-start-1"
+                className="z-10 md:mb-1 lg:mb-48 bg-white opacity-70 hover:bg-slate-200 hover:text-slate-500 font-open text-teal-500 px-4 md:px-8 -tracking-normal py-1.5 md:py-3 rounded-sm col-start-1 row-start-1"
                 href={`/${product.slug}`}
               >
                 {product.productName}

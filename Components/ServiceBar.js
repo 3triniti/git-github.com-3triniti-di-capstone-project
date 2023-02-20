@@ -16,7 +16,7 @@ const ServiceBar = () => {
         <div className="pb-4">
           <Link
             to="/weddings"
-            className=" z-10 font-open font-normal text-sm text-slate-800 hover:text-teal-500"
+            className="z-10 font-open font-normal text-sm text-slate-800 hover:text-teal-500"
           >
             WEDDINGS
           </Link>
@@ -24,12 +24,12 @@ const ServiceBar = () => {
         <div className="z-10 pb-4">
           <Link
             to="/retreats"
-            className=" z-10 font-open font-normal text-sm text-slate-800 hover:text-teal-500"
+            className="z-10 font-open font-normal text-sm text-slate-800 hover:text-teal-500"
           >
             RETREATS
           </Link>
         </div>
-        <div className=" z-10 pb-4">
+        <div className="z-10 pb-4">
           <Link
             to="/community-outreach"
             className="z-10 font-open font-normal text-sm text-slate-800 hover:text-teal-500"
@@ -40,7 +40,7 @@ const ServiceBar = () => {
         <div className="z-10 pb-4">
           <Link
             to="/workshops"
-            className=" z-10 font-open font-normal text-sm text-slate-800 hover:text-teal-500"
+            className="z-10 font-open font-normal text-sm text-slate-800 hover:text-teal-500"
           >
             WORKSHOPS
           </Link>

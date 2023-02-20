@@ -8,10 +8,11 @@ const SpecialEvents = () => {
     <>
       <div>
         <Navbar />
-        <div className="z-10 bg-service2 bg-center w-screen h-96 bg-no-repeat font-tangerine font-normal text-7xl text-teal-500 text-center pt-72">
-          Special Events
-        </div>
+        <div className="z-10 bg-service2 bg-center w-screen h-96 bg-no-repeat font-tangerine font-normal text-7xl text-teal-500 text-center"></div>
         <div className=" bg-yellow-500 h-2 w-screen"></div>
+        <h1 className="font-tangerine font-normal text-7xl text-teal-500 text-center mt-1 mb-6">
+          Special Events
+        </h1>
         <div>
           <h1 className="font-open font-thin text-4xl ml-10 mr-10 text-center text-teal-400 mt-8">
             All moments have meaning and importance, they are special for the
@@ -22,7 +23,7 @@ const SpecialEvents = () => {
           <div className="grid-cols-1  md:flex pt-10 mb-10">
             <img
               src={SpecialEvents2}
-              className="w-52 h-72 lg:w-80 lg:h-96 ml-44 mb-6 md:ml-8"
+              className="w-screen h-full md:w-64 md:h-96 lg:w-80 lg:h-96 mb-6 md:ml-8"
               alt=""
             />
             <div className="">
@@ -35,7 +36,7 @@ const SpecialEvents = () => {
                 for birthdays, and other important moments in life, etc. We also
                 perform ceremonies for casual home parties or any other events.
               </p>
-              <p className="font-open font-thin text-base text-black text-left ml-10 mr-8">
+              <p className="font-open font-thin text-base text-black text-left ml-10 mr-8 md:mb-0">
                 Special Events, such as baby showers and marriage engagement
                 parties are smaller events, but are equally important milestones
                 that are sacred to the most important members of that event.
@@ -54,9 +55,10 @@ const SpecialEvents = () => {
               </p>
             </div>
           </div>
-          <h1 className="font-open font-thin text-4xl text-right text-teal-400 mb-20 mr-20  lg:-mt-24">
+          <h1 className="font-open font-thin text-4xl text-right text-teal-400 mb-20 mr-8 md:mt-0 lg:-mt-8 md:mr-20 md:ml-0">
             Create everlasting memories
           </h1>
+          <div className="md:hidden bg-teal-500 h-1.5 w-5/6 md:w-3/4 md:ml-24 ml-8 md:-mt-20 mb-8 md:mb-24"></div>
           <div className=" w-screen -mb-2 h-1 bg-slate-100"></div>
         </div>
         <Footer />

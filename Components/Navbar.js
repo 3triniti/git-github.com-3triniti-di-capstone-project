@@ -3,11 +3,11 @@ import { Link } from "react-router-dom";
 import EmptyCart from "./EmptyCart";
 import logo2 from "../Images/Kauai Tea Ceremony logo long (1).png";
 // import NavButton from "../Buttons/NavButton";
-import Creators from "../Pages/Creators";
+
 import ProductBar from "../Components/ProductBar";
 import ServiceBar from "../Components/ServiceBar";
 import Burger from "./Burger";
-import { CreatorBtn } from "../Buttons/CreatorBtn";
+
 import { ServiceBtn } from "../Buttons/ServiceBtn";
 import { ProductBtn } from "../Buttons/ProductBtn";
 // import { useScreenSize } from "/hooks/useScreenSize";
@@ -20,7 +20,12 @@ function Navbar() {
       <nav className="grid grid-cols-[1fr_auto] items-center md:grid-cols-[auto_1fr_auto] py-2 px-2 h-36">
         <Burger className="lg:hidden" />
         <div className="hidden lg:grid grid-cols-3 gap-2 place-items-center">
-          <CreatorBtn title="CREATORS" Dropdown={Creators} />
+          <Link
+            to="/creators"
+            className="hover:text-teal-500 font-open text-sm tracking-wider lg:mr-0"
+          >
+            CREATORS
+          </Link>
           <ServiceBtn title="SERVICES" Dropdown={ServiceBar} />
           <ProductBtn title="PRODUCTS" Dropdown={ProductBar} />
         </div>

@@ -10,35 +10,38 @@ const Retreats = () => {
     <>
       <div>
         <Navbar />
-        <div className="bg-retreat2 bg-center h-96 font-tangerine font-normal text-7xl text-teal-500 text-center pt-72">
-          Retreats
-        </div>
+        <div className="bg-retreat2 bg-center h-96 font-tangerine font-normal text-7xl text-teal-500 text-center pt-72"></div>
         <div className="bg-yellow-500 h-2 w-screen"></div>
+        <h1 className="font-tangerine font-normal text-7xl text-teal-500 text-center mb-6">
+          Retreats
+        </h1>
         <div>
           <h1 className="font-open font-thin text-4xl text-center text-teal-400 mt-8">
             Enjoy Zen moment in a relaxed setting of your choice
           </h1>
         </div>
         <div className="flex">
-          <div className="grid-cols-1 md:flex mt-10 mb-16">
+          <div className="grid-cols-1 lg:flex mt-10 mb-16">
             <video
               src={RetreatVideo}
-              className="ml-2 w-screen md:ml-12 md:w-96 h-80 md:-mt-10 mb-6"
+              className="ml-1 w-screen lg:ml-12 md:ml-52 md:w-96 h-80 -mt-8 md:-mt-10 mb-6"
               controls
               autoplay="true"
               muted
             ></video>
-
+            <h1 className="md:hidden font-open font-thin text-4xl text-center text-teal-400 ">
+              Enjoy tea on beautiful Kauai
+            </h1>
             <video
               src={RetreatVideo2}
-              className="ml-2 md:-ml-96 w-screen md:w-96 h-80 md:mt-72 mt-6 mb-12"
+              className="ml-1 lg:-ml-96 md:ml-52 w-screen md:w-96 h-80 lg:mt-72 -mt-6 mb-3 md:mb-12"
               controls
               autoplay="true"
               muted
             ></video>
 
             <div>
-              <p className="font-open font-thin text-lg text-black text-left ml-10 mr-12 mb-8">
+              <p className="font-open font-thin text-lg text-black text-left ml-4 md:ml-10 md:mr-12 mb-8 lg:mt-0 md:mt-8">
                 Japanese tea ceremony can be a great part of a retreat. Japanese
                 tea ceremony is the way of spiritual cleansing and meditation.
                 Throughout the years, retreats have grown, and the use for
@@ -54,7 +57,7 @@ const Retreats = () => {
                 person's spiritual breakthrough, helping them leave behind the
                 past and moving forward in to the next phase of their life.
               </p>
-              <p className="font-open font-thin text-lg text-black text-left ml-10 mr-12 md:mt-24">
+              <p className="font-open font-thin text-lg text-black text-left ml-4 md:ml-10 md:mr-12 lg:mt-24">
                 Business retreats have a similar purpose as personal retreats.
                 There is a desire to have a professional breakthrough during
                 business retreats. Tea ceremonies can help bring balance to an
@@ -66,18 +69,18 @@ const Retreats = () => {
                 been built, either through business ventures or personal
                 experience.
               </p>
-              <div className=" w-full h-1 mt-9 ml-3 md:mt-32 md:-ml-52 bg-teal-500"></div>
-              <div className="">
+              <div className="w-full h-1 mt-9 ml-2 lg:mt-32 lg:-ml-52 bg-teal-500"></div>
+              <div className="grid-cols-1">
                 <img
                   src={Retreat}
-                  className="md:ml-96 md:w-1/2 md:h-72 mt-12 ml-2 md:mt-24 mb-10"
+                  className="w-screen lg:ml-96 md:ml-0.5 lg:w-1/2 md:h-96 mt-12 ml-1 lg:mt-24 mb-10 lg:mb-12"
                   alt=""
                 />
               </div>
               <div>
-                <h1 className="ml-8 md:-ml-96 md:-mt-80 text-left font-open font-thin text-4xl text-teal-400">
+                <h1 className="ml-3 md:ml-10 lg:-ml-96 lg:-mt-96 text-left font-open font-thin text-4xl text-teal-400">
                   Let us serve you, and put your mind at ease
-                  <p className="font-open font-thin text-lg text-black text-left md:mr-80 mt-12 mb-8 md:pr-48">
+                  <p className="font-open font-thin text-lg text-black text-left md:mr-48 lg:w-3/5 mt-12 mb-8">
                     Less common retreats, such as Youth and couple retreats have
                     a similar purpose, as they are for uniting and empowering
                     the people involved. The healing aspect of these events
@@ -93,6 +96,7 @@ const Retreats = () => {
             </div>
           </div>
         </div>
+        <div className="md:hidden bg-teal-500 h-1.5 w-5/6 md:w-3/4 md:ml-24 ml-8 md:-mt-20 mb-8 md:mb-24"></div>
         <div className=" w-screen -mb-2 h-1 bg-slate-100"></div>
         <Footer />
       </div>

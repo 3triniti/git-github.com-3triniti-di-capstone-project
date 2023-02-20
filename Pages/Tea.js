@@ -7,10 +7,11 @@ const Tea = () => {
     <>
       <div>
         <Navbar />
-        <div className="bg-tea bg-center h-96 font-tangerine font-normal text-7xl text-teal-500 text-center pt-72">
-          Tea
-        </div>
+        <div className="bg-tea bg-center h-96 font-tangerine font-normal text-7xl text-teal-500 text-center"></div>
         <div className=" bg-yellow-500 h-2 w-screen"></div>
+        <h1 className="font-tangerine font-normal text-7xl text-teal-500 text-center mt-1 mb-6">
+          Tea
+        </h1>
         <div className=" pt-16 mb-16 ml-32 space-y-24">
           <div className="flex">
             <p className="font-open font-normal text-sm">
@@ -18,6 +19,7 @@ const Tea = () => {
             </p>
           </div>
         </div>
+        <div className="md:hidden bg-teal-500 h-1.5 w-5/6 md:w-3/4 md:ml-24 ml-8 md:-mt-20 mb-8 md:mb-24"></div>
         <div className=" w-screen -mb-2 h-1 bg-slate-100"></div>
         <Footer />
       </div>

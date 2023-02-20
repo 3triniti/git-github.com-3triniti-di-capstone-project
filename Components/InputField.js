@@ -28,7 +28,22 @@ const InputField = (props) => {
           placeholder={props.placeholder}
           value={props.value}
           required={props.isRequired}
-          className="inputField__field"
+          className="inputField__field w-64 lg:w-96 h-80"
+          rows={7}
+          name={props.name}
+        />
+      </label>
+    );
+  } else if (props.type === "textarea2") {
+    return (
+      <label className="inputField__label">
+        {props.label}
+        <textarea
+          onChange={(e) => props.onChangeHandler(e.target.value)}
+          placeholder={props.placeholder}
+          value={props.value}
+          required={props.isRequired}
+          className="inputField__field lg:w-80 w-64 h-32"
           rows={7}
           name={props.name}
         />
@@ -44,7 +59,7 @@ const InputField = (props) => {
           placeholder={props.placeholder}
           value={props.value}
           required={props.isRequired}
-          className="inputField__field"
+          className="inputField__field w-64 h-12 ml-0 lg:w-96 lg:h-14 lg:ml-2 border-teal-500"
           name={props.name}
         />
       </label>
