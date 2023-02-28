@@ -26,7 +26,7 @@ function Footer() {
             />
           </Link>
         </div>
-        <div className="ml-8 columns-3 gap-5 lg:ml-10 flex-wrap md:columns-2 md:pl-24 mt-4 md:mb-3 mr-3">
+        <div className="ml-8 columns-2 gap-5 lg:ml-10 flex-wrap md:columns-2 md:pl-24 mt-4 md:mb-3 mr-3">
           <div className="pb-1 md:pb-2.5">
             <Link
               to="/"

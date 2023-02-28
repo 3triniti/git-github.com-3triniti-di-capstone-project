@@ -27,7 +27,7 @@ export const Burger = ({ className }) => {
         <div className="w-8 h-1 bg-teal-500" />
       </button>
       {isOpen && (
-        <div className="absolute top-16 bg-white left-0 right-0">
+        <div className="z-50 absolute top-16 bg-white left-0 right-0">
           <ServiceBar />
           <ProductBar />
         </div>

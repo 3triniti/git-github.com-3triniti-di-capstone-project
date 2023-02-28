@@ -2,12 +2,14 @@ import React from "react";
 import ContactForm from "../Components/ContactForm.js";
 import Footer from "../Components/Footer.js";
 import Navbar from "../Components/Navbar";
+import contact from "../Images/contact.jpg";
 
 const Contact = () => {
   return (
     <div>
       <Navbar />
-      <div className="z-10 bg-contact bg-top w-screen h-96 bg-no-repeat font-tangerine font-normal text-7xl text-teal-500 text-center"></div>
+      <div className="z-10 bg-contact bg-top w-screen md:h-96 bg-no-repeat font-tangerine font-normal text-7xl text-teal-500 text-center"></div>
+      <img src={contact} className=" w-screen h-full md:hidden" alt="" />
       <div className=" bg-yellow-500 h-2 w-screen"></div>
       <h1 className="font-tangerine font-normal text-7xl text-teal-500 text-center mt-1 mb-6">
         Contact

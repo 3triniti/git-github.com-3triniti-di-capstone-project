@@ -20,9 +20,9 @@ export const CreatorBtn = ({ setView }) => {
         onClick={toggleIsOpen}
       >
         CREATORS
-        <span className="  md: text-yellow-400 ml-2 text-xl rotate-90">
+        {/* <span className="  md: text-yellow-400 ml-2 text-xl rotate-90">
           &#8250;
-        </span>
+        </span> */}
       </button>
       {isOpen && (
         <div className="absolute top-20 bg-white z-50">

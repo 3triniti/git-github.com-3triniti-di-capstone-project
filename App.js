@@ -16,6 +16,7 @@ import CupsPlates from "./Pages/CupsPlates.js";
 import PotsBowls from "./Pages/PotsBowls.js";
 import Tea from "./Pages/Tea.js";
 import PlaceMats from "./Pages/PlaceMats.js";
+import Creators from "./Pages/Creators.js";
 
 const App = () => {
   return (
@@ -32,6 +33,7 @@ const App = () => {
           <Route path="/retreats" element={<Retreats />} />
           <Route path="/yukata-rental" element={<Yukata />} />
           <Route path="/history" element={<History />} />
+          <Route path="/creators" element={<Creators />} />
           <Route path="/serviceName" element={<Services />} />
           <Route path="/products" element={<Products />} />
           <Route path="/productName" element={<Products />} />
