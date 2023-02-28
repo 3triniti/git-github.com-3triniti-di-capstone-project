@@ -1,7 +1,7 @@
 import React from "react";
 import Footer from "../Components/Footer";
 import Navbar from "../Components/Navbar";
-
+import wedding8 from "../Images/weddings.jpg";
 import wedding2 from "../Images/wedding2.jpg";
 import weddingVideo from "../Images/weddingVideo.mov";
 
@@ -10,7 +10,8 @@ const Weddings = () => {
     <>
       <div>
         <Navbar />
-        <div className="z-10 bg-wedding8 bg-center w-screen ml:12 md:ml-0 h-96 bg-no-repeat font-tangerine font-normal text-7xl text-teal-500 text-center"></div>
+        <div className="z-10 bg-wedding8 bg-center w-screen ml:12 md:ml-0 md:h-96 bg-no-repeat font-tangerine font-normal text-7xl text-teal-500 text-center"></div>
+        <img src={wedding8} className="w-screen h-full md:hidden" alt="" />
         <div className="bg-yellow-500 h-2 w-screen"></div>
         <h1 className="font-tangerine font-normal text-7xl text-teal-500 text-center mt-1 mb-6">
           Weddings

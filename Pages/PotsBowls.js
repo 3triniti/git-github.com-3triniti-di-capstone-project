@@ -5,13 +5,15 @@ import bowl from "../Images/bowl.jpg";
 import bowl2 from "../Images/bowl2.jpg";
 import bowl3 from "../Images/bowl3.jpg";
 import pot from "../Images/pot.jpg";
+import potBowl from "../Images/1000001555.jpg";
 
 const PotsBowls = () => {
   return (
     <>
       <div>
         <Navbar />
-        <div className="bg-bowls bg-top h-96 font-tangerine font-normal text-7xl text-teal-500 text-center"></div>
+        <div className="bg-bowls bg-top md:h-96 font-tangerine font-normal text-7xl text-teal-500 text-center"></div>
+        <img src={potBowl} className=" w-screen h-full md:hidden" alt="" />
         <div className=" bg-yellow-500 h-2 w-screen"></div>
         <h1 className="font-tangerine font-normal text-7xl text-teal-500 text-center mt-1 mb-6">
           Pots & Bowls

@@ -2,13 +2,15 @@ import React from "react";
 import Footer from "../Components/Footer";
 import Navbar from "../Components/Navbar";
 import mat from "../Images/mat.jpg";
+import fabric from "../Images/fabric.jpg";
 
 const PlaceMats = () => {
   return (
     <>
       <div>
         <Navbar />
-        <div className="bg-placeMats bg-center h-96 font-tangerine font-normal text-7xl text-teal-500 text-center"></div>
+        <div className="bg-placeMats bg-center lg:h-96 font-tangerine font-normal text-7xl text-teal-500 text-center"></div>
+        <img src={fabric} className=" w-screen h-full lg:hidden" alt="" />
         <div className=" bg-yellow-500 h-2 w-screen"></div>
         <h1 className="font-tangerine font-normal text-7xl text-teal-500 text-center mt-1 mb-6">
           Place Mats

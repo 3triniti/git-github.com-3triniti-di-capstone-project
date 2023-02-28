@@ -2,6 +2,7 @@ import React from "react";
 import Footer from "../Components/Footer";
 import Navbar from "../Components/Navbar";
 import Retreat from "../Images/retreat3.png";
+import Retreat2 from "../Images/retreats.jpg";
 import RetreatVideo from "../Images/retreatVid.webm";
 import RetreatVideo2 from "../Images/retreatVid2.webm";
 
@@ -10,7 +11,12 @@ const Retreats = () => {
     <>
       <div>
         <Navbar />
-        <div className="bg-retreat2 bg-center h-96 font-tangerine font-normal text-7xl text-teal-500 text-center pt-72"></div>
+        <div className="bg-retreat2 bg-center md:w-screen md:h-96 font-tangerine font-normal text-7xl text-teal-500 text-center pt-72"></div>
+        <img
+          src={Retreat2}
+          className="w-screen h-full md:hidden -mt-72"
+          alt=""
+        />
         <div className="bg-yellow-500 h-2 w-screen"></div>
         <h1 className="font-tangerine font-normal text-7xl text-teal-500 text-center mb-6">
           Retreats
@@ -70,28 +76,29 @@ const Retreats = () => {
                 experience.
               </p>
               <div className="w-full h-1 mt-9 ml-2 lg:mt-32 lg:-ml-52 bg-teal-500"></div>
-              <div className="grid-cols-1">
+              <div className="grid-cols-1"></div>
+              <div className="">
+                <h1 className="ml-3 md:ml-10 lg:-ml-32 mt-12 md:mt-12 lg:mt-16 text-left font-open font-thin text-4xl text-teal-400">
+                  Let us serve you, and put your mind at ease
+                </h1>
+              </div>
+              <div className="grid grid-cols-1 md:flex">
+                <p className="font-open font-thin text-lg text-black text-left md:mr-12 lg:-ml-96 ml-4 md:ml-8 md:mt-16 lg:mr-0 lg:w-3/5 mt-8 mb-8">
+                  Less common retreats, such as Youth and couple retreats have a
+                  similar purpose, as they are for uniting and empowering the
+                  people involved. The healing aspect of these events makes tea
+                  ceremony an important part of the event. Youths can learn
+                  another way to cope with life's problems and see themselves
+                  differently. Couples can have time to be served as a couple
+                  and feel that energy that initially connected them in their
+                  union. It is a great way to reinforce those connections, such
+                  as renewing their vows.
+                </p>
                 <img
                   src={Retreat}
-                  className="w-screen lg:ml-96 md:ml-0.5 lg:w-1/2 md:h-96 mt-12 ml-1 lg:mt-24 mb-10 lg:mb-12"
+                  className="w-screen lg:ml-12 md:ml-0.5 mr-0 lg:mr-0 md:w-1/2 lg:w-3/4 md:h-96 mt-8 ml-1 md:mt-12 lg:mt-16 mb-10 lg:mb-12"
                   alt=""
                 />
-              </div>
-              <div>
-                <h1 className="ml-3 md:ml-10 lg:-ml-96 lg:-mt-96 text-left font-open font-thin text-4xl text-teal-400">
-                  Let us serve you, and put your mind at ease
-                  <p className="font-open font-thin text-lg text-black text-left md:mr-48 lg:w-3/5 mt-12 mb-8">
-                    Less common retreats, such as Youth and couple retreats have
-                    a similar purpose, as they are for uniting and empowering
-                    the people involved. The healing aspect of these events
-                    makes tea ceremony an important part of the event. Youths
-                    can learn another way to cope with life's problems and see
-                    themselves differently. Couples can have time to be served
-                    as a couple and feel that energy that initially connected
-                    them in their union. It is a great way to reinforce those
-                    connections, such as renewing their vows.
-                  </p>
-                </h1>
               </div>
             </div>
           </div>

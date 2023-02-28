@@ -3,12 +3,14 @@ import Footer from "../Components/Footer";
 import Navbar from "../Components/Navbar";
 import suehiroKids from "../Images/suehirokids1.jpg";
 import CommunityOutreach2 from "../Images/communityOutreach2.jpg";
+import community from "../Images/Communityhands.jpg";
 
 const CommunityOutreach = () => {
   return (
     <div>
       <Navbar />
-      <div className="z-10 bg-communityOutreach bg-center w-screen h-96 bg-no-repeat font-tangerine font-normal text-7xl text-teal-500 text-center"></div>
+      <div className="z-10 bg-communityOutreach bg-center w-screen md:h-96 bg-no-repeat font-tangerine font-normal text-7xl text-teal-500 text-center"></div>
+      <img src={community} className="w-screen h-full md:hidden" alt="" />
       <div className=" bg-yellow-500 h-2 w-screen"></div>
       <h1 className="font-tangerine font-normal text-7xl text-teal-500 text-center mt-1 mb-6">
         Community Outreach

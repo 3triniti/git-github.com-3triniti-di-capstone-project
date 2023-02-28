@@ -9,13 +9,15 @@ import cup3 from "../Images/cup3.jpg";
 import plates2 from "../Images/plates2.jpg";
 import cups from "../Images/cups.jpg";
 import cups2 from "../Images/cups2.jpg";
+import cupPlate from "../Images/1000001554.jpg";
 
 const CupsPlates = () => {
   return (
     <>
       <div>
         <Navbar />
-        <div className="bg-cupsPlates bg-right h-96 font-tangerine font-normal text-7xl text-teal-500 text-center"></div>
+        <div className="bg-cupsPlates bg-right md:h-96 font-tangerine font-normal text-7xl text-teal-500 text-center"></div>
+        <img src={cupPlate} className=" w-screen h-full md:hidden" alt="" />
         <div className="bg-yellow-500 h-2 w-screen"></div>
         <h1 className="font-tangerine font-normal text-7xl text-teal-500 text-center mt-1 mb-6">
           Cups & Plates

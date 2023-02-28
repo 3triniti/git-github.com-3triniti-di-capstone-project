@@ -2,13 +2,15 @@ import React from "react";
 import Footer from "../Components/Footer";
 import Navbar from "../Components/Navbar";
 import SpecialEvents2 from "../Images/specialEvents2.jpg";
+import services2 from "../Images/suehiroclass2.jpeg";
 
 const SpecialEvents = () => {
   return (
     <>
       <div>
         <Navbar />
-        <div className="z-10 bg-service2 bg-center w-screen h-96 bg-no-repeat font-tangerine font-normal text-7xl text-teal-500 text-center"></div>
+        <div className="z-10 md:bg-service2 bg-center w-screen md:h-96 bg-no-repeat font-tangerine font-normal text-7xl text-teal-500 text-center"></div>
+        <img src={services2} className="w-screen h-full md:hidden" alt="" />
         <div className=" bg-yellow-500 h-2 w-screen"></div>
         <h1 className="font-tangerine font-normal text-7xl text-teal-500 text-center mt-1 mb-6">
           Special Events

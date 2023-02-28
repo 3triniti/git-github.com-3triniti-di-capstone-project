@@ -3,13 +3,15 @@ import Footer from "../Components/Footer";
 import Navbar from "../Components/Navbar";
 import yukata3 from "../Images/yukata3.jpg";
 import yukata from "../Images/Yukata.jpg";
+import yukata2 from "../Images/yukata2.jpg";
 
 const Workshops = () => {
   return (
     <div>
       <Navbar />
       <div>
-        <div className="bg-yukata2 bg-center h-96 font-tangerine font-normal text-7xl text-teal-500 text-center"></div>
+        <div className="bg-yukata2 bg-center md:h-96 font-tangerine font-normal text-7xl text-teal-500 text-center"></div>
+        <img src={yukata2} className="w-screen h-full md:hidden" alt="" />
         <div className=" bg-yellow-500 h-2 w-screen"></div>
         <h1 className="font-tangerine font-normal text-7xl text-teal-500 text-center mt-1 mb-6">
           Yukata Rental
